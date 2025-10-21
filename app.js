@@ -1,5 +1,28 @@
 'use strict';
 
+// // Detect if user is on mobile
+// if (!/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+//   // Not a mobile device
+//   document.body.innerHTML = `
+//       <style>
+//         body {
+//           display: flex;
+//           justify-content: center;
+//           align-items: center;
+//           height: 100vh;
+//           text-align: center;
+//           background: #f0f0f0;
+//           font-family: sans-serif;
+//           padding: 2rem;
+//         }
+//       </style>
+//       <div>
+//         <h2>Mobile Only Site 📱</h2>
+//         <p>This website is available only on mobile devices.</p>
+//       </div>
+//     `;
+// }
+
 const modal = document.querySelector('.modal');
 const modalCloseBtn = document.querySelector('.modal-close-btn');
 const modalCloseOverlay = document.querySelector('.modal-close-overlay');
